@@ -681,7 +681,7 @@
   .nav__list {
     flex-wrap: nowrap;
     /*overflow-x: hidden;*/
-    /*overflow-y: scroll;*/
+    overflow-y: scroll;
   }
 
   .nav__item {

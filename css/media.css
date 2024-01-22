@@ -680,6 +680,8 @@
 @media (max-width: 480px) {
   .nav__list {
     flex-wrap: nowrap;
+    padding-bottom: 5px;
+    margin-bottom: -5px;
     /*overflow-x: hidden;*/
     overflow-y: scroll;
   }

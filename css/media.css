@@ -1,0 +1,694 @@
+@media (max-width: 1600px) {
+  .about-us__cards {
+    flex-direction: column;
+    /*display: block;*/
+  }
+
+  .cards__card_left {
+    margin-bottom: 32px;
+  }
+
+  .card1 {
+    border-radius: 40px;
+  }
+
+  .quations__item {
+    --offsets: 1;
+  }
+}
+
+@media (max-width: 1200px) {
+  :root {
+    --gap: 30px;
+  }
+
+  .logo {
+    min-width: 150px;
+  }
+
+  .header__nav {
+    margin-right: 105px;
+  }
+
+  .nav__list {
+    gap: 10px 60px;
+  }
+
+  .logo__img-top {
+    display: none;
+  }
+
+  .logo__img-top1200 {
+    display: block;
+  }
+
+  .main {
+    padding-top: 30px;
+  }
+
+  .hero {
+    padding: 10px 0 15px;
+  }
+
+  .hero__container {
+    background-image: url(../img/low-angle-photo-of-balconies-2462015.jpg);
+  }
+
+  .hero__wrapper {
+    padding: 160px 77px;
+  }
+
+  .hero__title {
+    margin: 0 0 16px;
+    font-size: 60px;
+  }
+
+  .hero__desc {
+    margin: 0 0 59px;
+    font-size: 20px;
+  }
+
+  .hero__btn {
+    padding: 24px 35px;
+    font-size: 24px;
+  }
+
+  .about-us {
+    padding: 18px 0 35px;
+  }
+
+  .about-us__text {
+    margin: 0 0 60px;
+    max-width: 924px;
+  }
+
+  .cards__card_left {
+    min-height: 640px;
+    background-image: url(../img/worker1200.jpg);
+  }
+
+  .card1__link {
+    padding: 19px 35px;
+  }
+
+  .cards__item {
+    padding-left: 77px;
+  }
+
+  .card2__img {
+    margin-right: 30px;
+  }
+
+  .steps {
+    padding-top: 44px;
+  }
+
+  .steps__wrapper:before {
+    width: 47.3%;
+    top: 10px;
+  }
+
+  .steps__content {
+    width: 48%;
+  }
+
+  .steps__text {
+    margin-bottom: 26px;
+  }
+
+  .quations {
+    padding: 30px 0 78px;
+  }
+
+  .quations__item {
+    --offsets: 0;
+  }
+
+  .footer__links {
+    flex-basis: 45%;
+  }
+
+  .footer__form {
+    flex-basis: 55%;
+    min-width: 541px;
+  }
+
+  .form__label {
+    margin-bottom: 34px;
+  }
+
+  .form__btn {
+    padding: 19px 37px;
+  }
+
+  .footer__info {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  :root {
+    --gap: 31px;
+  }
+
+  .header {
+    padding: 0 1px;
+    border-radius: 0px 0px 24px 24px;
+  }
+
+  .logo {
+    min-width: 110px;
+  }
+
+  .logo__img-top1200 {
+    display: none;
+  }
+
+  .logo__img-top992 {
+    display: block;
+  }
+
+  .header__nav {
+    margin-right: 43px;
+  }
+
+  .nav__list {
+    gap: 10px 40px;
+  }
+
+  .nav__link {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .main {
+    padding-top: 27px;
+  }
+
+  .hero__container {
+    border-radius: 24px;
+    background-image: url(../img/low-angle-photo-of-balconies-992.jpg);
+  }
+
+  .hero__wrapper {
+    padding: 160px 40px;
+  }
+
+  .hero__title {
+    font-size: 50px;
+  }
+
+  .hero__desc {
+    font-size: 18px;
+  }
+
+  .about-us__text {
+    margin: 0 0 53px;
+  }
+
+  .card1 {
+    padding: 34px 40px;
+    border-radius: 24px;
+  }
+
+  .cards__card_left {
+    border-radius: 24px;
+    min-height: 650px;
+  }
+
+  .card1__text {
+    flex-basis: 65%;
+  }
+
+  .cards__item {
+    align-items: center;
+    padding: 35px 40px;
+  }
+
+  .card2__img {
+    flex-basis: 20%;
+    margin-right: 16px;
+    min-width: 114px;
+    min-height: 99px;
+  }
+
+  .card2__content {
+    flex-basis: 80%;
+  }
+
+  .card2__img_img1 {
+    background-image: url(../img/kube992.svg);
+  }
+
+  .card2__img_img2 {
+    background-image: url(../img/cog992.svg);
+  }
+
+  .section__title_steps {
+    margin: 0 0 30px;
+  }
+
+  .steps__wrapper:before {
+    top: 0;
+    border-radius: 24px;
+    width: 100%;
+    max-height: 284px;
+  }
+
+  .steps__content {
+    padding-top: 324px;
+    width: 100%;
+  }
+
+  .section__text_steps {
+    display: none;
+  }
+
+  .section__text_steps2 {
+    display: block;
+  }
+
+  .quations {
+    padding: 32px 0 79px;
+  }
+
+  .quations__link {
+    padding: 34px 65px 34px 39px;
+  }
+
+  .footer {
+    padding: 50px 0 46px;
+  }
+
+  .footer__container {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .footer__links {
+    order: 2;
+  }
+
+  .footer__logo {
+    margin-bottom: 12px;
+  }
+
+  .footer__form {
+    width: 80%;
+    order: 1;
+  }
+
+  .footer__nav-links {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+
+
+  .header {
+    padding: 14px 0 14px;
+  }
+
+  .header__container {
+    flex-wrap: wrap;
+  }
+
+  .header__logo {
+    order: 1;
+  }
+
+  .header__nav {
+    order: 2;
+    margin-right: 0;
+  }
+
+  .header__btn {
+    padding-left: 90px;
+    order: 1;
+  }
+
+  .header__btn::after {
+    left: 90px;
+  }
+
+  .nav__item {
+    gap: 10px 24px;
+  }
+
+  .hero__wrapper {
+    padding: 100px 40px;
+  }
+
+  .hero__title {
+    font-size: 40px;
+  }
+
+  .hero__title,
+  .hero__desc {
+    text-align: center;
+  }
+
+  .hero__btn {
+    align-self: center;
+    padding: 20px 30px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 666px) {
+  .cards__card_left {
+    display: block;
+    width: 100%;
+    min-height: unset;
+    background: var(--white);
+  }
+
+  .cards__card_left::before {
+    content: "";
+    display: block;
+    width: 100%;
+    aspect-ratio: 290 / 200; /*668 / 662;*/
+    border-radius: 24px;
+    background-image: url(../img/worker.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+  }
+
+  .card1 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px 0;
+    background-color: var(--white);
+  }
+
+  .card1__text {
+    color: var(--black);
+  }
+
+  .card1__link {
+    color: var(--orange);
+    transition: color 0.3s ease-in-out;
+  }
+
+  .card1__link:focus-visible {
+    color: var(--white);
+  }
+
+  .card1__link:hover:not(:focus-visible) {
+    color: var(--white);
+  }
+
+  .card1__link:active:not(:focus-visible) {
+    color: var(--white);
+  }
+
+  .cards__item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .footer__form {
+    min-width: 510px;
+  }
+
+  .form__btn {
+    padding: 19px 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  :root {
+    --gap: 29px;
+  }
+
+  .container {
+    padding: 0 15px;
+    width: 100%;
+  }
+
+  .header {
+    padding: 10px 0 25px;
+    border-radius: 0px 0px 16px 16px;
+  }
+
+  .logo {
+    min-height: 48px;
+  }
+
+  .header__nav {
+    padding: 15px 0;
+    margin-right: -15px;
+  }
+
+  .nav__list {
+    gap: 10px 25px;
+  }
+
+  .main {
+    padding-top: 10px;
+  }
+
+  .hero {
+    padding: 10px 0 30px;
+  }
+
+  .hero__container {
+    border-radius: 16px;
+  }
+
+  .hero__wrapper {
+    padding: 60px 22px;
+  }
+
+  .hero__title {
+    margin: 0 0 6px;
+    font-size: 20px;
+  }
+
+  .hero__desc {
+    font-size: 12px;
+    margin: 0 0 32px;
+  }
+
+  .hero__btn {
+    padding: 13px 30px;
+    font-size: 12px;
+  }
+
+  .btn_action {
+    border-radius: 8px;
+  }
+
+  .section__title {
+    font-size: 24px;
+  }
+
+  .about-us {
+    padding: 30px 0 16px;
+  }
+
+  .section__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  .about-us__text {
+    margin: 0 0 13px;
+  }
+
+  .cards__card_left::before {
+    border-radius: 16px;
+  }
+
+  .card1 {
+    padding: 8px 0 0;
+    gap: 12px;
+  }
+
+  .card1__link {
+    padding: 10px 42px;
+  }
+
+  .link {
+    border-radius: 8px;
+    font-size: 12px;
+  }
+
+  .card1__link::after {
+    border-radius: 5px;
+  }
+
+  .cards__list {
+    gap: 31px;
+  }
+
+  .cards__item {
+    gap: 12px;
+    border: none;
+    padding: 0;
+  }
+
+  .card2__img {
+    min-width: 64px;
+    min-height: 49px;
+  }
+
+  .card2__img_img1 {
+    background-image: url(../img/kube576.svg);
+  }
+
+  .card2__img_img2 {
+    background-image: url(../img/cog576.svg);
+  }
+
+  .section__caption {
+    margin-bottom: 4px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+  }
+
+  .steps {
+    padding: 42px 0 30px;
+  }
+
+  .section__title_steps {
+    margin: 0 0 20px;
+  }
+
+  .steps__wrapper:before {
+    border-radius: 16px;
+    max-height: 160px;
+  }
+
+  .steps__content {
+    padding-top: 180px;
+  }
+
+  .section__caption_576 {
+    margin-bottom: 14px;
+  }
+
+  .steps__text {
+    margin-bottom: 24px;
+  }
+
+  .steps__links {
+    gap: 9.2px;
+  }
+
+  .steps__link {
+    padding: 0;
+  }
+
+  .steps__link_link1 {
+    padding: 12px 44px;
+  }
+
+  .steps__link_link1::after,
+  .steps__link_link2::after {
+    border-radius: 8px;
+  }
+
+  .steps__link_link2 {
+    padding: 11px 32px;
+  }
+
+  .quations {
+    padding: 30px 0 60px;
+  }
+
+  .section__title_quations {
+    margin-bottom: 18px;
+  }
+
+  .quations__link {
+    padding: 1px;
+    border: none;
+    border-radius: 8px;
+  }
+
+  .footer {
+    padding: 30px 0;
+  }
+
+  .footer__container {
+    align-items: center;
+    gap: 42px;
+  }
+
+  .footer__links {
+    align-items: center;
+  }
+
+  .logo__img-bottom {
+    max-width: 131px;
+  }
+
+  .footer__logo {
+    margin-bottom: 10px;
+  }
+
+  .footer__social-links {
+    gap: 16px;
+  }
+
+  .footer__social-link {
+    width: 40px;
+    height: 40px;
+  }
+
+  .footer__form {
+    min-width: 290px;
+  }
+
+  .form__text {
+    align-self: flex-start;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+
+  .form__label {
+    gap: 26px;
+    margin-bottom: 25px;
+  }
+
+  .form__input,
+  .form__textarea {
+    padding: 13px 0 13px 20px;
+    font-size: 14px;
+  }
+
+  .form__btn-check {
+    flex-direction: column;
+    gap: 13px;
+  }
+
+  .form__btn {
+    align-self: center;
+    padding: 12px 19px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav__list {
+    flex-wrap: nowrap;
+    /*overflow-x: hidden;*/
+    /*overflow-y: scroll;*/
+  }
+
+  .nav__item {
+    white-space: nowrap;
+  }
+
+  .hero__container {
+    background-image: url(../img/low-angle-photo-of-balconies-480.jpg);
+  }
+}
